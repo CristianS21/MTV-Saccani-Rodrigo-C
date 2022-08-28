@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+</head>
+<body>
+    <center> <u> <H1> *** Algunos integrantes de mi familia *** </u> <br>  </H1> <center>
+        <center> <H1> 👨‍👩‍👧‍👦 </center> </H1>
+     
+    <br>
+    <br>
+    
+    {% for familiar in familiares %}
+    <center>  <p> <strong>NOMBRE Y APELLIDO> </strong> <i>{{ familiar.nombre}} {{ familiar.apellido}}</i>, <strong>VINCULO></strong> <i> {{familiar.vinculo}}</i>, <strong> FECHA DE NAC.</strong> <i> {{familiar.fecha_de_nacimiento}}</i>, <strong>NÚM DE CEL> </strong> <i> {{familiar.n_celular}}</i>.- </p> </center> <hr> 
+    
+    {% endfor %} 
+
+</body>
+</html>
