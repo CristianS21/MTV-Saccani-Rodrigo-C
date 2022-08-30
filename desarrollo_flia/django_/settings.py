@@ -55,7 +55,7 @@ ROOT_URLCONF = 'django_.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/Thinkpad T440p/OneDrive/Escritorio/Familia/desarrollo_flia/Plantillas/"],
+        'DIRS': ["C:/Users/Thinkpad T440p/OneDrive/Escritorio/Coderhouse PYTHON/MTV-Saccani-Rodrigo-C/desarrollo_flia/Plantillas"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
